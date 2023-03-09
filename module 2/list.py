@@ -1,4 +1,3 @@
-#list
 print([1,24,76])
 
 for i in [5,4,3,2,1]:
@@ -53,4 +52,18 @@ myList.append(10)
 print(myList)
 myList.append(20)
 print(myList)
+myList.pop(0)
+print(myList)
+mySecondList=[50,60,70]
+myList.extend(mySecondList)
+print(myList)
 
+#Is something in list
+some=[1,3,9,5,6,5]
+print(9 in some)
+print(9 not in some)
+
+#sort
+some=['Joseph','Glenn','Aryan']
+some.sort()
+print(some)
